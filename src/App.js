@@ -46,7 +46,7 @@ class App extends Component {
     }
 
     getRollNumber() {
-        fetch("http://123.206.91.120:3000/get_record", {
+        fetch("http://123.206.91.120:3000/get_record_s", {
             headers: {
                 Accept: "application/json"
             }
@@ -83,7 +83,7 @@ class App extends Component {
         this.click = true
 
 
-        fetch("http://123.206.91.120:3000/roll", {
+        fetch("http://123.206.91.120:3000/roll_s", {
             headers: {
                 Accept: "application/json"
             }
